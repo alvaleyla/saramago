@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.fondo{
+    background-color: rgb(238, 216, 188);
+
+}
+
+.container-fluid{
+    background-color: rgb(238, 216, 188);;
+}
+
+
+
+#quote{
+    font-family: 'Benne';
+    font-size: 5vw;
+}
+
+#saramago{
+   width: 45%;
+   height:45%;
+   margin: 2%;
+   padding: 15%;
+   background-color:white;
+}
+
+.color{
+    color: rgb(240, 236, 232);
+}
+
+.name1{
+    color: rgb(240, 236, 232);
+}
+.name{
+    color: rgb(206, 200, 200);
+}
+
+@media only screen and (max-width: 700px) {
+    img{
+        width: 450px;
+    }
+    .estilo-x{
+        font-size: calc(1em + 1vw);
+    }
+}
+
+@media only screen and (max-width: 500px){
+    img{
+        width: 600px;
+    }
+    .estilo-x{
+        font-size: calc(1em + 1vw);    }
+}
+
+.fa-instagram-square:hover {
+    color: rgb(240, 236, 232);
+}
+
+.fa-facebook:hover{
+    color: rgb(240, 236, 232);
+}
+
+.b-header{
+background-color: #931456;
+}
